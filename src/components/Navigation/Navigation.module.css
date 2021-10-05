@@ -1,0 +1,168 @@
+*{
+    --transition-speed: 1s;
+}
+.navbar {
+    background-color: #ffffff;
+    overflow: scroll;
+    overflow-y: hidden; /* Hide vertical scrollbar */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+    border-right: 1px solid #000000;
+}
+
+.navbarNav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+
+}
+
+.navItem {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navImg{
+    /*filter:  invert(35%) sepia(53%) saturate(5316%) hue-rotate(199deg) brightness(101%) contrast(104%);*/
+    /*transition: 1s*/
+    fill: #007bff;
+}
+
+
+
+
+.navLink {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5rem;
+    /*color: var(--text-primary);*/
+    text-decoration: none;
+    transition: var(--transition-speed);
+}
+
+
+.linkText {
+    display: none;
+    margin-left: 1rem;
+}
+
+.navLink img {
+    width: 2rem;
+    min-width: 2rem;
+    margin: 0 1.5rem;
+}
+
+.navImg {
+    width: 2rem;
+    min-width: 2rem;
+    margin: 0 1.5rem;
+}
+
+.navImg{
+    /*filter:  invert(36%) sepia(38%) saturate(6789%) hue-rotate(200deg) brightness(102%) contrast(106%);*/
+    /*transition: var(--transition-speed);*/
+}
+
+
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5rem;
+    text-decoration: none;
+    transition: var(--transition-speed);
+    transform: rotate(-180deg);
+}
+
+.logo img {
+    transform: rotate(0deg);
+    transition: var(--transition-speed);
+}
+
+.logoText
+{
+    display: inline;
+    position: absolute;
+    left: -999px;
+    transition: var(--transition-speed);
+    margin-left: 63px
+}
+
+
+
+/* Hovers */
+.navItem:hover .navImg {
+    filter:  invert(36%) sepia(38%) saturate(6789%) hue-rotate(200deg) brightness(102%) contrast(106%);
+}
+
+.navLink:hover .svg{
+    filter:  invert(36%) sepia(38%) saturate(6789%) hue-rotate(200deg) brightness(102%) contrast(106%);
+    transition: var(--transition-speed);
+
+}
+
+.navbar:hover .logo img {
+    transform: rotate(-180deg);
+}
+
+/* Small screens */
+@media only screen and (max-width: 600px) {
+    .navbar {
+        bottom: 0;
+        width: 100vw;
+        height: 5rem;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .navbarNav {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .navLink {
+        justify-content: center;
+    }
+
+}
+
+/* Large screens */
+@media only screen and (min-width: 600px) {
+    .navbar {
+        top: 0;
+        min-width: 100px;
+        height: 100vh;
+    }
+
+    /*.navbar:hover {*/
+    /*    width: 16rem;*/
+    /*}*/
+
+    /*.navbar:hover .linkText {*/
+    /*    display: inline;*/
+    /*}*/
+
+    .navbar:hover .logo svg
+    {
+
+    }
+
+    /*.navbar:hover .logoText*/
+    /*{*/
+    /*    left: 0;*/
+    /*}*/
+
+    .navItem:last-child {
+        margin-top: auto;
+    }
+}

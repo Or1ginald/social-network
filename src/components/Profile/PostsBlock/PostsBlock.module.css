@@ -1,0 +1,21 @@
+.myPosts {
+    display: flex;
+    flex-direction: column;
+    padding: 17px 30px;
+    gap: 10px;
+}
+
+.createPost {
+    display: flex;
+    gap: 10px;
+}
+
+textarea {
+    width: 100%;
+    /*margin-top: 10px;*/
+}
+
+
+textarea:focus{
+    border-color: #007bff;
+}
