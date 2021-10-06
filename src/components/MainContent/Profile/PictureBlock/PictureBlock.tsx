@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from "./PictureBlock.module.css"
-import avatar from "../../../images/avatar.png";
+import avatar from "../../../../images/avatar.png";
 
 export const PictureBlock = () => {
     return (

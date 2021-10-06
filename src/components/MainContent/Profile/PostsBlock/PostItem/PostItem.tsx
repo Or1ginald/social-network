@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from "./PostItem.module.css"
-import avatar from "../../../../images/avatar.png"
+import avatar from "../../../../../images/avatar.png"
 
 type PostItemPropsType = {
     message:string,

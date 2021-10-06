@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="259fad44-424a-4b75-a0bf-c5fdd2816671" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/social-network.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/Zipeg-128x128.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/man_avatar1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/prof.pic1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/thumb-22359.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
+    <list default="true" id="259fad44-424a-4b75-a0bf-c5fdd2816671" name="Changes" comment="Initial commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/PictureBlock/PictureBlock.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/Profile/PictureBlock/PictureBlock.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/PictureBlock/PictureBlock.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/Profile/PictureBlock/PictureBlock.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/PostsBlock/PostItem/PostItem.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/Profile/PostsBlock/PostItem/PostItem.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/PostsBlock/PostItem/PostItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/Profile/PostsBlock/PostItem/PostItem.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/PostsBlock/PostsBlock.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/Profile/PostsBlock/PostsBlock.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/PostsBlock/PostsBlock.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/Profile/PostsBlock/PostsBlock.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/Profile/Profile.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/Profile/Profile/Profile.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/Profile/Profile.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/Profile/Profile/Profile.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileInfoBlock/ProfileInfoBlock.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/Profile/ProfileInfoBlock/ProfileInfoBlock.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileInfoBlock/ProfileInfoBlock.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/Profile/ProfileInfoBlock/ProfileInfoBlock.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,8 +58,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1633474225142</updated>
-      <workItem from="1633474227179" duration="1047000" />
+      <workItem from="1633474227179" duration="1340000" />
+      <workItem from="1633535842244" duration="2428000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <created>1633475452347</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1633475452347</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -76,8 +84,11 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
   </component>
 </project>
