@@ -1,25 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="259fad44-424a-4b75-a0bf-c5fdd2816671" name="Changes" comment="Initial commit">
+    <list default="true" id="259fad44-424a-4b75-a0bf-c5fdd2816671" name="Changes" comment="Added posts state">
+      <change afterPath="$PROJECT_DIR$/src/components/MainContent/Messages/Chat/ChatContainer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MainContent/Profile/PostsBlock/PostsBlockContainer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/reducers/messages-page-reducer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/reducers/profile-reducer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/state.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/store.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/PictureBlock/PictureBlock.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/Profile/PictureBlock/PictureBlock.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/PictureBlock/PictureBlock.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/Profile/PictureBlock/PictureBlock.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/PostsBlock/PostItem/PostItem.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/Profile/PostsBlock/PostItem/PostItem.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/PostsBlock/PostItem/PostItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/Profile/PostsBlock/PostItem/PostItem.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/PostsBlock/PostsBlock.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/Profile/PostsBlock/PostsBlock.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/PostsBlock/PostsBlock.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/Profile/PostsBlock/PostsBlock.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/Profile/Profile.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/Profile/Profile/Profile.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/Profile/Profile.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/Profile/Profile/Profile.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileInfoBlock/ProfileInfoBlock.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/Profile/ProfileInfoBlock/ProfileInfoBlock.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileInfoBlock/ProfileInfoBlock.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/Profile/ProfileInfoBlock/ProfileInfoBlock.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Button/Button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button/Button.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Input/Input.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Input/Input.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainContent/Messages/Chat/Chat.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/Messages/Chat/Chat.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainContent/Messages/Messages.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/Messages/Messages.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainContent/Messages/MessagesSidebar/ChatList/ChatList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/Messages/MessagesSidebar/ChatList/ChatList.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainContent/Messages/MessagesSidebar/MessagesSidebar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/Messages/MessagesSidebar/MessagesSidebar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainContent/Profile/PostsBlock/PostsBlock.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/Profile/PostsBlock/PostsBlock.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainContent/Profile/Profile/Profile.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/Profile/Profile/Profile.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+        <option value="JavaScript File" />
+        <option value="TypeScript JSX File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -59,7 +74,14 @@
       <option name="presentableId" value="Default" />
       <updated>1633474225142</updated>
       <workItem from="1633474227179" duration="1340000" />
-      <workItem from="1633535842244" duration="2428000" />
+      <workItem from="1633535842244" duration="2524000" />
+      <workItem from="1633632698176" duration="5654000" />
+      <workItem from="1633700386760" duration="1619000" />
+      <workItem from="1635263443524" duration="1751000" />
+      <workItem from="1635343610739" duration="4208000" />
+      <workItem from="1635528278211" duration="5773000" />
+      <workItem from="1635540236857" duration="1099000" />
+      <workItem from="1635591727980" duration="8799000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1633475452347</created>
@@ -68,7 +90,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633475452347</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added posts state">
+      <created>1633539871011</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1633539871011</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -89,6 +118,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Added posts state" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added posts state" />
   </component>
 </project>

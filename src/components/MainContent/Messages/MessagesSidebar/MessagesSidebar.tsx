@@ -9,7 +9,7 @@ type MessagesSidebarPropsType = {
     messagesData: {
         id: string
         name: string
-        message: string
+        lastMessage: string
         isActive: boolean
     }[]
 }
@@ -22,11 +22,11 @@ export function MessagesSidebar(props: MessagesSidebarPropsType) {
                 <header className={styles.header}>
                     <span>Your chats</span>
                     <div>
-                        <Button title={"New Chat"} svgAddress={ChatIcon}/>
+                        <Button title={"New Chat"} svgAddress={ChatIcon} onClick={()=>5}/>
                     </div>
                 </header>
                 <form>
-                    <Input placeholder={"Search"}/>
+                    <Input placeholder={"Search"} onChange={()=>5} value={""}/>
                 </form>
             </div>
             <div className={styles.body}>

@@ -3,10 +3,10 @@ import {NavLink} from "react-router-dom";
 import styles from "./ChatList.module.css"
 
 type ChatListItemPropsType = {
+    id: string
     imgSrc: string
     name: string
-    message: string
-    id: string
+    lastMessage: string
     isActive: boolean
     changeStatus: (id: string) => void
 }
@@ -15,39 +15,14 @@ type ChatListPropsType = {
     messageData: {
         id: string,
         name: string
-        message: string
+        lastMessage: string
         isActive: boolean
     }[]
 }
 
 
 export function ChatList(props: ChatListPropsType) {
-    const [dialogs, setDialogs] = useState([
-        {
-            id: "1",
-            name: "Andrey",
-            message: "Давно выяснено, что при оценке дизайна",
-            isActive: false,
-        },
-        {
-            id: "2",
-            name: "Ivan",
-            message: "Lorem Ipsum обеспечивает более или менее стандартное заполнение шаблона",
-            isActive: false,
-        },
-        {
-            id: "3",
-            name: "Alix",
-            message: "Многие программы электронной вёрстки и редакторы HTML используют Lorem Ipsum",
-            isActive: false,
-        },
-        {
-            id: "4",
-            name: "Evgenii",
-            message: "За прошедшие годы текст Lorem Ipsum получил много версий",
-            isActive: false,
-        },
-    ])
+    const [dialogs, setDialogs] = useState(props.messageData)
 
     const changeStatus = (id: string) => {
         setDialogs(dialogs.map(el => el.id === id ? {...el, isActive: true} : {...el, isActive: false}))
@@ -62,7 +37,7 @@ export function ChatList(props: ChatListPropsType) {
                         imgSrc={'../../../../../../images/man_avatar1.jpg'}
                         id={e.id}
                         name={e.name}
-                        message={e.message}
+                        lastMessage={e.lastMessage}
                         isActive={e.isActive}
                         changeStatus={changeStatus}
                     />
@@ -98,7 +73,7 @@ function ChatListItem(props: ChatListItemPropsType) {
                 <div className={styles.listItemBody}>
                     <div>
                         <span className="personName">{props.name}</span>
-                        <p>{cutMessage(props.message)}</p>
+                        <p>{cutMessage(props.lastMessage)}</p>
                     </div>
                 </div>
             </NavLink>

@@ -3,10 +3,11 @@ import p from "./Profile.module.css"
 import {PictureBlock} from "../PictureBlock/PictureBlock";
 import {ProfileInfoBlock} from "../ProfileInfoBlock/ProfileInfoBlock";
 import {PostsBlock} from "../PostsBlock/PostsBlock";
-import {postsType} from "../../../../index";
+import {profilePageType} from "../../../../redux/state";
+import {PostsBlockContainer} from "../PostsBlock/PostsBlockContainer";
 
 type ProfilePropsType = {
-    posts:postsType
+    state:profilePageType
 }
 
 function Profile(props:ProfilePropsType) {
@@ -16,7 +17,7 @@ function Profile(props:ProfilePropsType) {
             <PictureBlock/>
             <div className={p.rightBlock}>
                 <ProfileInfoBlock/>
-                <PostsBlock posts={props.posts}/>
+                <PostsBlockContainer />
             </div>
         </div>)
 }

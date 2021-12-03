@@ -2,28 +2,34 @@ import React from 'react';
 import a from './App.module.css';
 import Navigation from "./components/Navigation/Navigation";
 import Profile from "./components/MainContent/Profile/Profile/Profile";
-import {BrowserRouter, Route} from "react-router-dom";
+import {Route} from "react-router-dom";
 import Messages from "./components/MainContent/Messages/Messages";
-import {postsType} from "./index";
+import {messagesPageType, stateType} from "./redux/state";
+import {useSelector} from "react-redux";
+import {rootReducerType} from "./redux/store";
+import {initialStateType} from "./redux/reducers/profile-reducer";
 
 type AppPropsType = {
-    posts:postsType
+    state:stateType
 }
 
 
-function App(props:AppPropsType) {
+
+
+function App() {
+    const profilePage = useSelector<rootReducerType,initialStateType>((state)=>state.ProfileReducer)
+    const messages = useSelector<rootReducerType,messagesPageType>((state)=>state.messagesReducer)
     return (
-        <BrowserRouter>
             <div className="App">
                 <div className={a.appWrapper}>
                     <Navigation/>
                     <>
-                        <Route path={'/profile'} render={() => <Profile posts={props.posts}/>}/>
-                        <Route path={'/messages'} render={() => <Messages/>}/>
+                        <Route path={'/profile'} render={() => <Profile state={profilePage}/>}/>
+                        <Route path={'/messages'} render={() => <Messages state={messages}/>}/>
                     </>
                 </div>
             </div>
-        </BrowserRouter>
+
     );
 }
 
