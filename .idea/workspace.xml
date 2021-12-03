@@ -2,24 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="259fad44-424a-4b75-a0bf-c5fdd2816671" name="Changes" comment="Added posts state">
-      <change afterPath="$PROJECT_DIR$/src/components/MainContent/Messages/Chat/ChatContainer.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/MainContent/Profile/PostsBlock/PostsBlockContainer.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/reducers/messages-page-reducer.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/reducers/profile-reducer.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/state.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/store.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Button/Button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button/Button.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Input/Input.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Input/Input.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainContent/Messages/Chat/Chat.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/Messages/Chat/Chat.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainContent/Messages/Messages.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/Messages/Messages.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainContent/Messages/MessagesSidebar/ChatList/ChatList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/Messages/MessagesSidebar/ChatList/ChatList.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainContent/Messages/MessagesSidebar/MessagesSidebar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/Messages/MessagesSidebar/MessagesSidebar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainContent/Profile/PostsBlock/PostsBlock.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/Profile/PostsBlock/PostsBlock.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainContent/Profile/Profile/Profile.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/Profile/Profile/Profile.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainContent/Messages/Chat/ChatContainer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/Messages/Chat/ChatContainer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainContent/Profile/PostsBlock/PostsBlockContainer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/Profile/PostsBlock/PostsBlockContainer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/reducers/messages-page-reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/messagesPageReducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/reducers/profile-reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/profileReducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/store.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,6 +28,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="1z6h0LG3OQqiVOJDfgXerU3MhBA" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -57,7 +49,8 @@
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="ts.external.directory.path" value="D:\www\social-network\node_modules\typescript\lib" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -82,6 +75,7 @@
       <workItem from="1635528278211" duration="5773000" />
       <workItem from="1635540236857" duration="1099000" />
       <workItem from="1635591727980" duration="8799000" />
+      <workItem from="1638553747351" duration="904000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1633475452347</created>
@@ -113,12 +107,15 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Added posts state" />
     <option name="LAST_COMMIT_MESSAGE" value="Added posts state" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

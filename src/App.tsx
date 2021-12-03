@@ -7,7 +7,7 @@ import Messages from "./components/MainContent/Messages/Messages";
 import {messagesPageType, stateType} from "./redux/state";
 import {useSelector} from "react-redux";
 import {rootReducerType} from "./redux/store";
-import {initialStateType} from "./redux/reducers/profile-reducer";
+import {initialStateType} from "./redux/reducers/profileReducer";
 
 type AppPropsType = {
     state:stateType

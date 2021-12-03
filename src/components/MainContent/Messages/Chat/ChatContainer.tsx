@@ -2,7 +2,7 @@ import {connect} from "react-redux";
 import {Chat} from "./Chat";
 import {Dispatch} from "redux";
 import {rootReducerType} from "../../../../redux/store";
-import {changeInputTextAC, sendMessageAC} from "../../../../redux/reducers/messages-page-reducer";
+import {changeInputTextAC, sendMessageAC} from "../../../../redux/reducers/messagesPageReducer";
 import {v1} from "uuid";
 
 

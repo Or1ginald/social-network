@@ -1,6 +1,6 @@
 import {combineReducers, createStore} from "redux";
-import {MessagesPageReducer} from "./reducers/messages-page-reducer";
-import {ProfileReducer} from "./reducers/profile-reducer";
+import {MessagesPageReducer} from "./reducers/messagesPageReducer";
+import {ProfileReducer} from "./reducers/profileReducer";
 
 
 const rootReducer = combineReducers({

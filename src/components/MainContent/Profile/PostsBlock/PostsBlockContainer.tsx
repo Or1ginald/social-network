@@ -3,7 +3,7 @@ import {PostsBlock} from "./PostsBlock";
 import {connect} from "react-redux";
 import {rootReducerType} from "../../../../redux/store";
 import { Dispatch } from "redux";
-import {addPostAC, setNewPostTextAC} from "../../../../redux/reducers/profile-reducer";
+import {addPostAC, setNewPostTextAC} from "../../../../redux/reducers/profileReducer";
 import {postsType} from "../../../../redux/state";
 import { v1 } from "uuid";
 
